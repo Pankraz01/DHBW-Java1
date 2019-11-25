@@ -6,7 +6,7 @@ package dhbw.java1.chapter10.Bankkonto;
  * @author Patrick Pfurtscheller
  *
  */
-public class Sparbuch extends Konto{
+public class Sparbuch extends Konto {
 	
 	private static final double GUTHABENSZINS = 0.02;
 	
@@ -39,7 +39,7 @@ public class Sparbuch extends Konto{
 	
 	System.out.println(sparbuch);
 	
-//	sparbuch.auszahlen(60); // Dieser Ausdruck wirft einen Fehler aus
+//	sparbuch.auszahlen(60); // Dieser Ausdruck wirft einen Fehler aus, da nicht genug Geld auf dem Sparbuch vorhanden ist
 	
 
 	}
